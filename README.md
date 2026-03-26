@@ -100,7 +100,7 @@ flutter build apk --release
 |------|------------|
 | **Mata Kuliah** | Pengembangan Aplikasi Multiplatform |
 | **Dosen Pengampu** | Dr. Achmad Arwan, S.Kom., M.Kom. |
-| **Semester** | 2024/2025 |
+| **Semester** | 4 |
 
 ---
 
