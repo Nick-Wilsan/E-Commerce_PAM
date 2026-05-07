@@ -1,125 +1,73 @@
-# 🛒 E-Commerce App
+# 📱 Pemrograman Aplikasi Multiplatform
 
-<div align="center">
-
-![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)
-![Provider](https://img.shields.io/badge/State%20Management-Provider-FF6F61?logo=flutter&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-blue)
-
-**Aplikasi E-Commerce Modern dengan Flutter**
-
-</div>
+Repositori ini berisi kumpulan kode sumber dari seluruh tugas mata kuliah **Pengembangan Aplikasi Multiplatform** yang dikerjakan menggunakan framework **Flutter**.
 
 ---
 
-## 📱 Tentang Proyek
+## 👤 Informasi Mahasiswa
 
-Aplikasi E-Commerce ini dibangun menggunakan **Flutter** sebagai framework cross-platform yang memungkinkan aplikasi berjalan di **Android** dan **iOS** dengan satu basis kode. Aplikasi ini dirancang dengan antarmuka yang user-friendly dan performa yang optimal.
-
-### ✨ Fitur Utama
-
-- 🏠 **Home Screen** - Tampilan produk unggulan dan kategori
-- 🛍️ **Product Catalog** - Daftar produk dengan filter dan pencarian
-- 🛒 **Shopping Cart** - Keranjang belanja interaktif
-- ❤️ **Wishlist** - Simpan produk favorit
-- 👤 **User Profile** - Manajemen akun pengguna
-- 📦 **Order Tracking** - Lacak pesanan Anda
-- 💳 **Payment Gateway** - Berbagai metode pembayaran
-
----
-
-## 🏗️ Struktur Proyek
-
-```
-lib/
-├── main.dart          # Entry point aplikasi
-├── models/            # Model data (Product, User, Order, dll)
-├── providers/         # State management dengan Provider
-└── screens/           # Halaman-halaman UI
-```
-
----
-
-## 🚀 Cara Menjalankan
-
-### Prasyarat
-
-- Flutter SDK (versi 3.x atau lebih baru)
-- Dart SDK
-- Android Studio / VS Code
-- Emulator atau Device fisik
-
-### Langkah Instalasi
-
-```bash
-# 1. Clone atau download repository ini
-cd ecommerce
-
-# 2. Install dependencies
-flutter pub get
-
-# 3. Jalankan aplikasi
-flutter run
-```
-
-### Build APK
-
-```bash
-flutter build apk --release
-```
-
----
-
-## 📊 Tech Stack
-
-| Teknologi | Deskripsi |
-|-----------|-----------|
-| **Flutter** | UI Framework |
-| **Dart** | Programming Language |
-| **Provider** | State Management |
-| **HTTP** | API Communication |
-| **Shared Preferences** | Local Storage |
-
----
-
-## 👨‍💻 Informasi Pembuat
-
-<div align="center">
-
-| ![Developer](https://ui-avatars.com/api/?name=Nick+Wilsan&background=0D8ABC&color=fff&size=128) |
-|:---:|
-| **Nick Wilsan** |
-| NIM: `245150400111044` |
-
-</div>
-
-### 📚 Detail Mata Kuliah
-
-| Item | Keterangan |
-|------|------------|
+| Keterangan | Detail |
+|---|---|
+| **Nama** | Nick Wilsan |
+| **NIM** | `245150400111044` |
 | **Mata Kuliah** | Pengembangan Aplikasi Multiplatform |
 | **Dosen Pengampu** | Dr. Achmad Arwan, S.Kom., M.Kom. |
-| **Semester** | 4 |
 
 ---
 
-## 🎨 UI Preview
+## 📂 Daftar Tugas
 
-> ✨ Tampilan aplikasi yang modern dan intuitif dengan fokus pada pengalaman pengguna yang optimal.
+### ✅ Tugas 1 – WhatsApp Interface
+**Deskripsi:** Membangun antarmuka (UI) aplikasi WhatsApp menggunakan widget dasar Flutter.
+
+**Lokasi:** [`Tugas_1/`](Tugas_1/)
+
+### 🔗 Tugas 2 – Event & Navigation
+**Deskripsi:** Implementasi navigasi antar halaman dan penanganan event (seperti `onPressed`, `onTap`) pada aplikasi Flutter.
+
+**Lokasi:** [`Tugas_2/`](Tugas_2/)
+
+### 🧑‍🎓 Tugas 3 – Informasi Mahasiswa
+**Deskripsi:** Aplikasi untuk menampilkan dan mengelola data/informasi mahasiswa.
+
+**Lokasi:** [`Tugas_3/`](Tugas_3/)
+
+### 📝 Tugas 4 – Todo List
+**Deskripsi:** Aplikasi daftar tugas (*Todo List*) sederhana dengan fitur tambah, centang selesai, dan hapus tugas.
+
+**Lokasi:** [`Tugas_4/`](Tugas_4/)
 
 ---
 
-## 📝 License
+## 🚀 Teknologi
 
-Proyek ini dibuat untuk tujuan pembelajaran.
+- **Framework:** Flutter
+- **Bahasa Pemrograman:** Dart
+- **State Management:** `setState` (built-in)
 
 ---
 
-<div align="center">
+## ⚙️ Cara Menjalankan
 
-**Dibuat dengan ❤️ menggunakan Flutter**
+1.  Pastikan Flutter SDK sudah terinstal di komputer kamu.
+2.  Clone repositori ini:
+    ```bash
+    git clone https://github.com/Nick-Wilsan/Pemograman_Aplikasi_Multiplatform.git
+    ```
+3.  Masuk ke direktori tugas yang ingin dijalankan, contoh:
+    ```bash
+    cd Tugas_4
+    ```
+4.  Install dependensi:
+    ```bash
+    flutter pub get
+    ```
+5.  Jalankan aplikasi:
+    ```bash
+    flutter run
+    ```
 
-*Terima kasih telah mengunjungi repository ini!* 🙏
+---
 
-</div>
+> 💡 *Repositori ini dibuat untuk keperluan pembelajaran dan pengumpulan tugas mata kuliah.*
+```
