@@ -70,4 +70,3 @@ Repositori ini berisi kumpulan kode sumber dari seluruh tugas mata kuliah **Peng
 ---
 
 > 💡 *Repositori ini dibuat untuk keperluan pembelajaran dan pengumpulan tugas mata kuliah.*
-```
