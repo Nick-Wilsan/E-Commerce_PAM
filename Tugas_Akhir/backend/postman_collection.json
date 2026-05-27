@@ -1,0 +1,87 @@
+{
+  "info": {
+    "name": "BelajarKu API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost/learning_api"
+    },
+    {
+      "key": "user_id",
+      "value": "1"
+    },
+    {
+      "key": "lesson_id",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{base_url}}/register.php",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Mahasiswa\",\n  \"email\": \"mahasiswa@example.com\",\n  \"password\": \"123456\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{base_url}}/login.php",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"mahasiswa@example.com\",\n  \"password\": \"123456\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Lessons",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/lessons.php?user_id={{user_id}}"
+      }
+    },
+    {
+      "name": "Progress",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/progress.php?user_id={{user_id}}"
+      }
+    },
+    {
+      "name": "Complete Lesson",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{base_url}}/complete_lesson.php",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"user_id\": {{user_id}},\n  \"lesson_id\": {{lesson_id}}\n}"
+        }
+      }
+    }
+  ]
+}
